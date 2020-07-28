@@ -50,6 +50,7 @@ Netlify 홈페이지에서 github으로 로그인한 다음 시키는 대로 하
           : 유사시 돌아갈 수 있는 저장소의 체크 포인트 생성
 
 협업은 이렇게 진행이 된다.
+
  1. 원격 저장소 생성
  2. 팀원을 Collaborator로 추가
  3. 초기 프로젝트 push
@@ -58,3 +59,6 @@ Netlify 홈페이지에서 github으로 로그인한 다음 시키는 대로 하
  6. 브랜치에 작업한 내용을 pull
  7. master와 merge 하기전 pull request
  8. Pull request 확인 후 Master 와 merge
+ 
+ 위의 명령어를 상황에 맞게 사용하면 된다.
+
