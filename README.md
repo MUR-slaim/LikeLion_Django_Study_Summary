@@ -1,4 +1,4 @@
-<LikeLion_Django_Study_Summary>
+<1>
 
 = Github 기초
 목차 : Github 소개, Github 환경설정, 레포지토리 생성 후 푸시
