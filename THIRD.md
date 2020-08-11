@@ -51,3 +51,7 @@
                image = models.ImageField(upload_to = 'images/'
                name = models.CharF
                
+               
+               
+5. django로 나를 소개해볼게 2!
+ - 목차 : QuerySet, Method 이해 & 구현, PK, Path Convertor, get_object_or_404 이해
