@@ -34,9 +34,20 @@
                         [djanfo app 생성] : python manage.py startapp <app 이름>
                         [djanfo 로컬 서버 시작] : python manage.py runserver
                         
-                        
+                                 
 3. django가 관리하는 법
  - 목차 : Bootstrap 적용, URL/Template 언어 이해 및 구현, Static 파일 이해
  - Bootstrap : Front-End 개발을 빠르고 쉽게 할 수 있는 오픈소스 Framework
                누구나 쉬운 사용가능, 반응형 CSS 제공, 모든 최신 브라우저와 호환, PC와 모바일 디자인 제공
  - 
+ 
+ 
+ 
+4. django로 나를 소개해볼게!
+ - 목차 : Model 이해, Model과 Database의 연동 이해와 실습, admin 파악
+ - Model이란? 데이터에 접속하고 관리하도록 도와주는 객체
+ - Model 생성 #모델명의 첫 글자는 무조건 대문자!
+              class Designer(models.Model):
+               image = models.ImageField(upload_to = 'images/'
+               name = models.CharF
+               
