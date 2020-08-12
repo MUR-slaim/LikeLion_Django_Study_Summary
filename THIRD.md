@@ -1,6 +1,6 @@
 # LikeLion_Django_Study_Summary
 
-1. 장고, 그게 뭐야?
+# 1. 장고, 그게 뭐야?
  - HTML CSS Python 에 대한 지식을 미리 공부할 것!
  - 목차 : Framework & Django 개념 이해, MTV 패턴 파악, 강좌를 수강하며 가져야 하는 마음가짐
  - Django : Python 으로 작상된 오픈소스 웹 어플리케이션 프레임워크
@@ -13,7 +13,7 @@
               Model : 데이터베이스에 저장되는 데이터
               
 
-2. Hello, Django
+# 2. Hello, Django
  - 가상환경이란 : 자신이 원하는 Python 환경 구축을 위해 필요한 모듈만 담아놓는 바구니
  - PIP란 : Python으로 작성된 패키지 소프트웨어를 관리하는 패키지 관리 시스템
  - VS Code 단축키 모음 : [터미널 생성] : Ctrl + Shift + '
@@ -35,7 +35,7 @@
                         [djanfo 로컬 서버 시작] : python manage.py runserver
                         
                                  
-3. django가 관리하는 법
+# 3. django가 관리하는 법
  - 목차 : Bootstrap 적용, URL/Template 언어 이해 및 구현, Static 파일 이해
  - Bootstrap : Front-End 개발을 빠르고 쉽게 할 수 있는 오픈소스 Framework
                누구나 쉬운 사용가능, 반응형 CSS 제공, 모든 최신 브라우저와 호환, 
@@ -57,11 +57,11 @@
     = 처리과정 : static 폴더 생성, App 폴더 내에 "static" 폴더 & 파일 생성
 
 Settings.py 
-# Static File들이 들어있는 경로
+ - Static File들이 들어있는 경로
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'App 이름', 'static'
 ]
-# Static File을 모을 directory
+ - Static File을 모을 directory
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 Static 파일 모으기
 터미널에 입력
@@ -82,7 +82,7 @@ HTML에서 사용
  * github에 없는데 vscode에 새로 추가된 폴더 or 파일은 초록색으로 나옵니다.
 
  
-4. django로 나를 소개해볼게!
+# 4. django로 나를 소개해볼게!
  - 목차 : Model 이해, Model과 Database의 연동 이해와 실습, admin 파악
  - Model이란? 데이터에 접속하고 관리하도록 도와주는 객체
  - Model 생성 #모델명의 첫 글자는 무조건 대문자!
@@ -109,7 +109,7 @@ HTML에서 사용
                
                
                
-5. django로 나를 소개해볼게 2!
+# 5. django로 나를 소개해볼게 2!
  - 목차 : QuerySet, Method 이해 & 구현, PK, Path Convertor, get_object_or_404 이해
  QuerySet : 전달받은 모델의 객체 목록이다.
            사용! : views.py
@@ -156,7 +156,7 @@ def detail(request, designer_id):
    return render(request, 'detail.html', {'designer': desginer}
 
 
-6. django는 중복을 싫어해!
+# 6. django는 중복을 싫어해!
 
  - URL Include 
 App 별로 URL을 관리할 수 있도록 구조화함
@@ -204,4 +204,4 @@ Home.html
 ~
 {% endblock %}
 
-7. CRUD#1
+# 7. CRUD#1
